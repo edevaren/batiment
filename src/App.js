@@ -3,7 +3,7 @@ import RoomList from "./components/rooms/RoomList";
 import classes from "./App.module.css";
 import axios from "axios";
 
-//fonction pour récupérer les données de l'API
+//fonction pour récupérer les données de l'API et c'est déjà bien
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedRooms1, setLoadedRooms1] = useState([]);
